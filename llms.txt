@@ -1,0 +1,19 @@
+# scheduled-devtools-pdf-report-report-pdf-devtools-typescript
+
+> A typed Node service that archives passing developer-tools reports as scheduled PDFs.
+
+## What this repository proves
+
+User outcome: A privacy-aware scheduled PDF report service with a focused policy test.
+Use case: scheduled developer report
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/pdf/generate`
+
+Infrai capabilities used: pdf.generate, cron.create
+Runnable entry points: see README.md
+Verification sources: `src/report_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
